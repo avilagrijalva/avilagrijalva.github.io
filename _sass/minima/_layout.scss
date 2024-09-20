@@ -26,7 +26,10 @@
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: $base-line-height * $base-font-size * 1.25;
+  border-bottom: solid 1px #ddd;
+  border-top: solid 1px #ddd;
+	padding-top: 7px;
 
   .nav-trigger {
       display: none;
@@ -108,6 +111,8 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  border-bottom: solid 1px #ddd;
+  border-top: solid 1px #ddd;
 }
 
 .footer-heading {
@@ -203,8 +208,7 @@
 }
 
 .post-link {
-  display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.1);
 }
 
 

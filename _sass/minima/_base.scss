@@ -108,6 +108,13 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
+a {
+  color: #000;
+  background-color: transparent;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
 a:link {
 	text-decoration: none;
 	color: black;
@@ -123,6 +130,7 @@ a:link:hover, a:link:focus
 	background-size: 100% 2px, 100% 100%;
 	color: black;
 }
+
 
 /**
  * Blockquotes
