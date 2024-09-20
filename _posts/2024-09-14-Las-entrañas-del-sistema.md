@@ -20,7 +20,7 @@ La base es un Acer Predator G3610 a la cual se le han ido actualizando algunos c
 
 Obviamente no me podía dejar de banda el buen *neofetch*:
 
-![](assets/img/neofetch.png)
+![](/assets/img/neofetch.png)
 
 Ahora vamos a ir desgranando parte por parte.
 
@@ -57,7 +57,7 @@ Ahora vamos a ir desgranando parte por parte.
 2. Seguimos con TexMaker **sudo apt-get install texmaker**.
 3. Creamos un documento, que en mi caso hago uso de Markdown y LuaLaTex como compilador de PDF. Para el que quiera aquí tiene la plantilla completa:
 
-![](assets/img/texmaker.png)
+![](/assets/img/texmaker.png)
 
 ### AppImages:
 
@@ -70,7 +70,7 @@ Ahora vamos a ir desgranando parte por parte.
 
 Como DE usamos KDE Plasma 5.20.5 (el que venía con Debian 11) y Kwin como WM pero modificados para parecerse lo máximo a un tipo i3WM pero con las comodidades de un DE. Para muestra un botón:
 
-![](assets/img/de-wm.png)
+![](/assets/img/de-wm.png)
 
 KDE Plasma viene con una aplicación denominada *Plasma Style* donde yo la tengo configurada de la siguiente forma (puedes copiarla mediante *Get new...* en cada sección:
 
