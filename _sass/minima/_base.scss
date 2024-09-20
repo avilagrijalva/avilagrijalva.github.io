@@ -27,14 +27,15 @@ body {
   font-kerning: normal;
   display: block;
   min-height: 100vh;
+  max-width: 1020px;
   width: 80%;
   margin: 0 auto;
   word-wrap: break-word;
 }
 
-  ::selection {
-    color: black;
-    background: #ffd700;
+::selection {
+  color: black;
+  background: #ffd700;
 }
 
 /**
@@ -110,24 +111,16 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: #000;
+  background-color: transparent;
   text-decoration: none;
+  transition: all .2s ease-in-out;
 
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
-  &:hover {
-    color: $text-color;
+  &:hover,&:focus {
+    color: #ffd700;
     text-decoration: underline;
-  }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
+    cursor: pointer;
+    transition: all .2s ease-in-out;
   }
 }
 
