@@ -3,7 +3,7 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -16,9 +16,7 @@
             {%- endif -%}
           </li>
         </ul> -->
-        {%- if site.email -%}
-          <ul><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></ul>
-        {%- endif -%}
+        <p class="rss-subscribe">suscribete por <a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
       </div>
 
       <div class="footer-col footer-col-2">
@@ -29,12 +27,14 @@
           </svg> 
           Volver arriba
         </button>
-        <p class="rss-subscribe">suscribete por <a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
       </div>
 
-      <!-- <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div> -->
+      <div class="footer-col footer-col-3">
+        {%- if site.email -%}
+          <ul><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></ul>
+        {%- endif -%}
+        <!-- <p>{{- site.description | escape -}}</p> -->
+      </div>
     </div>
 
   </div>
