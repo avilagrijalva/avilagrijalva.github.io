@@ -27,8 +27,6 @@ body {
   font-kerning: normal;
   display: block;
   min-height: 100vh;
-  max-width: 1020px;
-  width: 80%;
   margin: 0 auto;
   word-wrap: break-word;
 }
@@ -122,6 +120,22 @@ a {
     cursor: pointer;
     transition: all .2s ease-in-out;
   }
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+	background-image: linear-gradient(black, black),linear-gradient(#ffd700, #ffd700);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px, 100% 2px;
+	transition: background-size .16s;
+	position: relative;
+}
+a:link:hover, a:link:focus
+{ 
+	background-size: 100% 2px, 100% 100%;
+	color: black;
 }
 
 
