@@ -153,16 +153,16 @@ a:link:hover, a:link:focus
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit * 0.5;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
-
-  > :last-child {
-    margin-bottom: 0;
-  }
+  float: right;
+	clear: right;
+	margin: -0.75rem 0 0 2.5rem;
+	font-size: 0.85rem;
+	font-style: italic;
+	line-height: 1.4;
+	vertical-align: baseline;
+	position: relative;
+	max-width: 18rem;
+  width: 100%;
 }
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 
+title: template
+excerpts: template excerpt
 ---
 
 template
