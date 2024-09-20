@@ -8,13 +8,13 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">
+          <!-- <li class="p-name">
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
+          </li> -->
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
@@ -22,11 +22,18 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+        <!-- {%- include social.html -%} -->
+        <button id="back-to-top">
+          <svg role="img" aria-label="Volver arriba" width="12" height="12" class="feather-icons" viewBox="0 0 24 24">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg> 
+          Volver arriba
+        </button>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <!-- <p>{{- site.description | escape -}}</p> -->
+        <p class="rss-subscribe">suscribete por <a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
       </div>
     </div>
 

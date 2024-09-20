@@ -276,3 +276,14 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+/**
+ * Back-to-top
+ */
+
+ #back-to-top {
+  border: 0;
+  color: var(--color-body-text-secondary);
+  display: inline;
+  padding: 0;
+}
