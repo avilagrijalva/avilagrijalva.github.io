@@ -17,7 +17,7 @@
           </li>
         </ul> -->
         {%- if site.email -%}
-          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <ul><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></ul>
         {%- endif -%}
       </div>
 
@@ -29,12 +29,12 @@
           </svg> 
           Volver arriba
         </button>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <!-- <p>{{- site.description | escape -}}</p> -->
         <p class="rss-subscribe">suscribete por <a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
       </div>
+
+      <!-- <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div> -->
     </div>
 
   </div>
